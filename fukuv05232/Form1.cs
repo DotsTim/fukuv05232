@@ -22,6 +22,8 @@ namespace fukuv05232
         private void button1_Click(object sender, EventArgs e)
         {
             timer1.Enabled = true;
+            label1.Text = "GGGGGGG";
+           
         }
     }
 }
