@@ -11,5 +11,11 @@ namespace fukuv05232
         {
             label1.Left = label1.Left + 5;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled=false;
+            label1.Text = "çgó—ò@„ƒ";
+        }
     }
 }
