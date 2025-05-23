@@ -14,8 +14,14 @@ namespace fukuv05232
 
         private void label1_Click(object sender, EventArgs e)
         {
-            timer1.Enabled=false;
+            timer1.Enabled = false;
             label1.Text = "çgó—ò@„ƒ";
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
         }
     }
 }
