@@ -6,5 +6,10 @@ namespace fukuv05232
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Left = label1.Left + 5;
+        }
     }
 }
